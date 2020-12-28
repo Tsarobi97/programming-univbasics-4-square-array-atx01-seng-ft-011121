@@ -4,4 +4,3 @@ def square_array(array)
   array do |index|
     square_array.push(array[index])
   end
-  square_array
