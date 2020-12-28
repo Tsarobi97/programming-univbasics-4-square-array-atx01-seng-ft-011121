@@ -1,8 +1,7 @@
 def square_array(array)
   array = [1,2,3]
-  
-
-
-
-
-end 
+  square_array = []
+  array do |index|
+    square_array.push(array[index]**)
+  end
+  square_array
