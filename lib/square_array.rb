@@ -16,3 +16,4 @@ def square_array(array)
       
       
 
+    array[count].to_s
