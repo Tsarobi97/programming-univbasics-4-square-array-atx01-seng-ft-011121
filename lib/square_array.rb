@@ -5,5 +5,5 @@ def square_array(array)
   for n in array do 
     square_array << n ** 2
   end 
-end
+square_array
   
