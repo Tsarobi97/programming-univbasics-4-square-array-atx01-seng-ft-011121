@@ -3,6 +3,7 @@ def square_array(array)
   square_array = []
   
   array.length.times do |index|
-    square_array.push(array[index]**array)
+    array[index]**array[index]
+    square_array.push(array[index])
   end
 end
